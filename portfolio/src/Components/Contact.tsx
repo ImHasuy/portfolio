@@ -11,7 +11,7 @@ export default function Contact() {
                   <span className="text-primary"> Touch</span>
               </h2>
               <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis massa vitae elit malesuada tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                  If my work caught your interest or you’d like to collaborate, don’t hesitate to reach out. I’m open to new opportunities and eager to contribute. Whether it’s a project idea, an internship, or a job opportunity, I’d love to hear from you.
               </p>
               <div className="space-y-8">
                   <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>

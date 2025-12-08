@@ -34,14 +34,14 @@ export default function Projects() {
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Featured <span className="text-primary">Projects</span></h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis massa vitae elit malesuada tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                    A glimpse into the work I’ve done to experiment, learn, and bring ideas to life through code.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map( project => (
                         <div key={project.id} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col h-full">
                             <div className="h-48 overflow-hidden">
-                                <img src={project.image} alt={project.title} className="object-cover  transition-transform duration-500 group-hover:scale-110"/>
+                                <img src={project.image} alt={project.title} className="object-cover  transition-transform duration-500 group-hover:scale-110 h-full w-full"/>
                             </div>
                             <div className="p-6 flex-1">
                                 <div className="flex flex-wrap gap-2 mb-2 ">

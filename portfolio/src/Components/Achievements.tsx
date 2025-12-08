@@ -26,7 +26,7 @@ export default function Achievements() {
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Key <span className="text-primary">Milestones</span></h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis massa vitae elit malesuada tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                    Highlights of the experiences, achievements, and learning moments I’m most proud of in my computer science journey.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {achivements.map(achievement => (

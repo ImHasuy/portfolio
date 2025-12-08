@@ -1,4 +1,4 @@
-import {Code} from "lucide-react";
+import {Code, Cpu, Layers} from "lucide-react";
 
 export default function AboutMe() {
     return(
@@ -10,18 +10,18 @@ export default function AboutMe() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">Passionate Web Developer & dsfsefse</h3>
+                        <h3 className="text-2xl font-semibold">Passionate Web Developer & Backend Enthusiast</h3>
                         <p className="text-muted-foreground">
-                            ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            Currently pursuing my Computer Science BSc at the University of Pannonia, I will finish my studies in the 2025/2026 II. semester and plan to continue toward a Computer Science MSc. Although I’m early in my career, I spend my time developing personal projects, experimenting with modern web technologies, and sharpening my full-stack development abilities.
                         </p>
 
                         <p className="text-muted-foreground">
-                            ion of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            I enjoy turning ideas into well-structured systems. Driven by curiosity and continuous growth, I strive to build applications that are efficient, maintainable, and enjoyable to use.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="gradient-button">Get In Touch</a>
 
-                            <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Download CV</a>
+                            <a href="/projects/resume.pdf" download className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Download CV</a>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 gap-6">
@@ -31,9 +31,9 @@ export default function AboutMe() {
                                     <Code className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Full stack developer</h4>
+                                    <h4 className="font-semibold text-lg">Backend Development</h4>
                                     <p className="text-muted-foreground">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Building reliable APIs, secure server-side logic, and scalable system architectures with modern backend technologies.
                                     </p>
                                 </div>
                             </div>
@@ -41,12 +41,12 @@ export default function AboutMe() {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Code className="h-6 w-6 text-primary"/>
+                                    <Layers className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Full stack developer</h4>
+                                    <h4 className="font-semibold text-lg">Full-Stack Web Applications</h4>
                                     <p className="text-muted-foreground">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Creating complete web solutions from database to UI, combining backend strength with clean, functional front-end implementations.
                                     </p>
                                 </div>
                             </div>
@@ -54,12 +54,12 @@ export default function AboutMe() {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Code className="h-6 w-6 text-primary"/>
+                                    <Cpu className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Full stack developer</h4>
+                                    <h4 className="font-semibold text-lg">Tech Enthusiast</h4>
                                     <p className="text-muted-foreground">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Always exploring new technologies and tools while building hands-on projects that strengthen my skills. I’m curious, and motivated to improve with every challenge I take on.
                                     </p>
                                 </div>
                             </div>
