@@ -5,6 +5,14 @@ export default function Projects() {
     const projects:project[] = [
         {
             id: 1,
+            title: "Encrytext",
+            description: "Encrytext is a lightweight peer to peer - end to end encrypted, terminal-based messaging application built for privacy and minimalism",
+            image: "/projects/Encrytext.png",
+            tags: ["Terminal Gui", "C#", "Networking" ,"Cryptography"],
+            link: "https://github.com/ImHasuy/encrytext"
+        },
+        {
+            id: 2,
             title: "Transparent Election",
             description: "Blockchain-based transparent voting system prototype for the Hungarian governmental elections for a transparent election.",
             image: "/projects/transparentElection.png",
@@ -12,20 +20,12 @@ export default function Projects() {
             link: "https://github.com/ImHasuy/TransparentElection/tree/BackendLogin"
         },
         {
-            id: 2,
+            id: 3,
             title: "PTO Manager",
             description: "A web application for managing employee leave, allowing users to submit, track, and visualize paid time off.",
             image: "/projects/PTOManager.png",
             tags: [ "Mantine" ,"React", "Typescript","C#","MS SQL"],
             link: "https://github.com/zuzmo00/PTO-Manager/tree/main"
-        },
-        {
-            id: 3,
-            title: "Bibliotar",
-            description: "A library management system designed for efficient book borrowing, user management, and transaction tracking.",
-            image: "/projects/bibliotar.png",
-            tags: ["React", "Typescript", "MS SQL" ,"C#" ,"Mantine"],
-            link: "https://github.com/ImHasuy/BIBLIOTAR"
         },
     ]
 

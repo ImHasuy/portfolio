@@ -10,7 +10,7 @@ export default function HeroSection() {
                     <span className="text-primary opacity-0 animate-fade-in-delay-1">Csanád </span>
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">Gáspár</span>
                 </h1>
-                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">I work behind the scenes to ensure web applications run seamlessly, combining a backend-first mindset with full-stack expertise to build systems that are reliable, maintainable, and user-friendly.</p>
+                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">I work mainly on the backend, helping ensure web applications run smoothly. I also have full-stack experience, which allows me to build systems that are reliable, maintainable, and easy to use.</p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                     <a href="#projects" className="gradient-button">
