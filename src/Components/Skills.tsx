@@ -14,10 +14,11 @@ export default function Skills() {
 
 
             {name: "C#", category: "Backend"},
+            {name: "NestJS", category: "Backend"},
+            {name: "TypeORM", category: "Backend"},
             {name: "Python", category: "Backend"},
-            {name: "Solidity", category: "Backend"},
             {name: "PostgreSQL", category: "Backend"},
-            {name: "MS SQL", category: "Backend"},
+
 
             {name: "Bash", category: "Infrastructure & Tooling"},
             {name: "Linux", category: "Infrastructure & Tooling"},

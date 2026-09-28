@@ -14,8 +14,8 @@ export default function Achievements() {
         },
         {
             name: "PE SAS scholarship",
-            description: "I have been awarded the SAS Scholarship of the University of Pannonia the three time in a row, which is granted only to the SAS student with the highest scholarship index in each faculty.",
-            year: "2024-2025"
+            description: "I have been awarded the SAS Scholarship of the University of Pannonia five times, which is granted only to the SAS student with the highest scholarship index in each faculty.",
+            year: "2024-2026"
         }
     ]
 

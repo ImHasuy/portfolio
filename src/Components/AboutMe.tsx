@@ -12,7 +12,7 @@ export default function AboutMe() {
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">Passionate Web Developer & Backend Enthusiast</h3>
                         <p className="text-muted-foreground">
-                            Currently pursuing my Computer Science BSc at the University of Pannonia, I will finish my studies in the 2025/2026 II. semester and plan to continue toward a Computer Science MSc. Although I’m early in my career, I spend my time developing personal projects, experimenting with modern web technologies, and sharpening my full-stack development abilities.
+                            Currently pursuing my Computer Science MSc at the University of Pannonia, where I also earned my BSc in Computer Science. In parallel with my studies, I develop personal software projects, engage with modern web stacks, and continuously refine my full-stack capabilities.
                         </p>
 
                         <p className="text-muted-foreground">
